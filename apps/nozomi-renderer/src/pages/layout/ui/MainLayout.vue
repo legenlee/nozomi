@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {
+  VAppBar,
   VAvatar,
   VDivider,
   VLayout,
@@ -36,6 +37,8 @@ import {
         </VListItem>
       </VList>
     </VNavigationDrawer>
+
+    <VAppBar></VAppBar>
 
     <VMain>
       <RouterView />
