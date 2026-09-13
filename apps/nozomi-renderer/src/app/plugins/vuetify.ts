@@ -25,12 +25,13 @@ const brandPalette = generatePaletteFromRGB(BRAND_COLOR);
 export const vuetify = createVuetify({
   blueprint: md3,
   defaults: {
-    VNavigationDrawer: { color: "surface-container-low" },
+    VNavigationDrawer: { color: "surface-container" },
     VList: { bgColor: "transparent" },
-    VAppBar: { color: "surface" },
-    VToolbar: { color: "surface" },
-    VCard: { color: "surface-container-low" },
+    VAppBar: { color: "surface-container" },
+    VToolbar: { color: "surface-container" },
+    VCard: { color: "surface-container" },
     VFooter: { color: "surface-container" },
+    VSwitch: { variant: "material" },
   },
   icons: {
     defaultSet: "mdi",
