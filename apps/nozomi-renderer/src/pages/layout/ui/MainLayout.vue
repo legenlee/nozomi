@@ -12,8 +12,8 @@ import {
 </script>
 
 <template>
-  <VLayout>
-    <VNavigationDrawer>
+  <VLayout class="bg-surface-container" full-height>
+    <VNavigationDrawer floating>
       <template #prepend>
         <VList>
           <VListItem title="LegenLee" subtitle="Account Placeholder">
@@ -40,8 +40,10 @@ import {
 
     <VAppBar></VAppBar>
 
-    <VMain>
-      <RouterView />
+    <VMain scrollable>
+      <div class="fill-height rounded-t-lg bg-background">
+        <RouterView />
+      </div>
     </VMain>
   </VLayout>
 </template>
