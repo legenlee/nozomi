@@ -29,7 +29,7 @@ export const vuetify = createVuetify({
     VList: { bgColor: "transparent" },
     VAppBar: { color: "transparent" },
     VToolbar: { color: "transparent" },
-    VCard: { color: "surface-container" },
+    VCard: { color: "surface-container", rounded: "md" },
     VFooter: { color: "surface-container" },
     VSwitch: { variant: "material" },
   },
